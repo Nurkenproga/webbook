@@ -117,7 +117,7 @@ const photoTitles = [
   'Фото как мы прощались в Турции'
 ]
 
-const heartBalloons = Array.from({ length: 36 }, (_, index) => index)
+const heartBalloons = Array.from({ length: 18 }, (_, index) => index)
 
 const screen = ref('letter') // letter | book | end
 const isUnlocked = ref(false)
@@ -348,7 +348,7 @@ function goToLetter() {
       <span>С любовью</span>
       <div class="days-together">
         <span class="days-icon">💕</span>
-        <span>Мы вместе {{ together }} дней</span>
+        <span>Мы уже вместе {{ together }} </span>
       </div>
     </footer>
   </div>
@@ -361,11 +361,18 @@ function goToLetter() {
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(160deg, #fff5f7 0%, #ffe8ef 30%, #ffd6e0 70%, #ffcce0 100%);
+  background-attachment: fixed;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   font-family: 'Nunito', sans-serif;
-  background: linear-gradient(160deg, #fff5f7 0%, #ffe8ef 30%, #ffd6e0 70%, #ffcce0 100%);
+  background: transparent;
   color: #5c374c;
 }
 
