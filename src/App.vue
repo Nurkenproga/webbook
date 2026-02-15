@@ -249,7 +249,7 @@ function goToLetter() {
     
     <header class="header">
       <h1 class="title">Наша волшебная книга</h1>
-      <p class="subtitle">Приятного тебе просмотра с праздником любимая ✨</p>
+      <p class="subtitle">Приятного тебе просмотра с праздником любимая</p>
       <button
         class="music-toggle"
         type="button"
