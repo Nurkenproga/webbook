@@ -971,13 +971,16 @@ body {
 .days-together {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.3rem;
   font-weight: 600;
   opacity: 0.9;
   font-style: normal;
   font-family: 'Courier New', monospace;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  flex-wrap: wrap;
+  max-width: 280px;
 }
 
 .days-icon {

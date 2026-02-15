@@ -36,8 +36,8 @@ function createConfetti() {
   const newConfetti = []
   const symbols = ['❤️', '💕', '💖', '✨', '💝']
   
-  for (let i = 0; i < 30; i++) {
-    const angle = (i / 30) * Math.PI * 2
+  for (let i = 0; i < 15; i++) {
+    const angle = (i / 15) * Math.PI * 2
     const velocity = 2 + Math.random() * 3
     const vx = Math.cos(angle) * velocity
     const vy = Math.sin(angle) * velocity - 1
